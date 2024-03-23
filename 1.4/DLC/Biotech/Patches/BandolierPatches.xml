@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
+        <setting>useAmmoLayerBandolier</setting>
+        <operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="Apparel_Bandolier"]/apparel/layers</xpath>
+            <value>
+                <layers>
+                    <li>PacksAreNotBelts_Tactical</li>
+                </layers>
+            </value>
+        </operation>
+    </Operation>
+
+</Patch>

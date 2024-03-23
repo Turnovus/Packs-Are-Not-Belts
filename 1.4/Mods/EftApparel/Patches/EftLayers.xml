@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
+        <setting>useTacticalLayerEftArmor</setting>
+        <operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="JDSFrontierArmorVestBase"]/apparel/layers</xpath>
+            <value>
+                <layers>
+                    <li>PacksAreNotBelts_Tactical</li>
+                </layers>
+            </value>
+        </operation>
+    </Operation>
+
+    <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
+        <setting>useTacticalLayerEft</setting>
+        <operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="JDSFrontierChestRigBase"]/apparel/layers</xpath>
+            <value>
+                <layers>
+                    <li>PacksAreNotBelts_Tactical</li>
+                </layers>
+            </value>
+        </operation>
+    </Operation>
+
+</Patch>

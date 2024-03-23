@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
+        <setting>useAmmoLayer</setting>
+        <operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[@Name="RE_AmmoBelts"]/apparel/layers</xpath>
+            <value>
+                <layers>
+                    <li>PacksAreNotBelts_Ammo</li>
+                </layers>
+            </value>
+        </operation>
+    </Operation>
+
+</Patch>

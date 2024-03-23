@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <operations>
+
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="Apparel_PackControl"]/apparel/bodyPartGroups</xpath>
+                <value>
+                    <bodyPartGroups>
+                        <li>Torso</li>
+                    </bodyPartGroups>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="Apparel_PackBandwidth"]/apparel/bodyPartGroups</xpath>
+                <value>
+                    <bodyPartGroups>
+                        <li>Torso</li>
+                    </bodyPartGroups>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="Apparel_PackTox"]/apparel/bodyPartGroups</xpath>
+                <value>
+                    <bodyPartGroups>
+                        <li>Torso</li>
+                    </bodyPartGroups>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+    <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
+        <setting>useMechLayer</setting>
+        <operation Class="PatchOperationSequence">
+            <operations>
+                
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_PackControl"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Mechanitor</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_PackBandwidth"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Mechanitor</li>
+                        </layers>
+                    </value>
+                </li>
+
+            </operations>
+        </operation>
+    </Operation>
+
+</Patch>

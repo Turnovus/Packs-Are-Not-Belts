@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
+        <setting>useLegacySmoke</setting>
+        <invert>true</invert>
+        <operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="Apparel_SmokepopBelt"]/apparel/bodyPartGroups</xpath>
+            <value>
+                <bodyPartGroups>
+                    <li>Torso</li>
+                </bodyPartGroups>
+            </value>
+        </operation>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_FirefoampopPack"]/apparel/bodyPartGroups</xpath>
+        <value>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+        </value>
+    </Operation>
+
+</Patch>
