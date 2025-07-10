@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
+        <setting>useTacticalLayer</setting>
+        <operation Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_M56Webbing_Vietnam"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_ALICEWebbing_ColdWar"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_RRV_ChestRig"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_USMC_ChestRig"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_CondorRecon_ChestRig"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_CryeAVSTan_ChestRig"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_MilTec_ChestRig"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_WarriorFalcon_ChestRig"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_CondorBattleBelt_Tan"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_VTACBattleBelt_Tan"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_SuperBelt_Tan"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_Type56Webbing_ColdWar"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_Type63Webbing_ColdWar"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_M23_ChestRig"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_KulaMongoose_ChestRig"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_Arktis_TacticalVest"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_TexShoemakerPoliceBelt_Python"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_SafarilandPoliceBelt_Beretta"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RHApparel_SafarilandPoliceBelt_Glock"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Tactical</li>
+                        </layers>
+                    </value>
+                </li>
+
+            </operations>
+        </operation>
+    </Operation>
+
+</Patch>

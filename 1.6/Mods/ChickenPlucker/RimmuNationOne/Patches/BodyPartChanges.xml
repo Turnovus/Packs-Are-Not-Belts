@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+    
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Civilian"]/apparel/bodyPartGroups</xpath>
+            <value>
+                <bodyPartGroups>
+                    <li>Torso</li>
+                    <li>Shoulders</li>
+                </bodyPartGroups>
+            </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical"]/apparel/bodyPartGroups</xpath>
+            <value>
+                <bodyPartGroups>
+                    <li>Torso</li>
+                    <li>Shoulders</li>
+                    <!--Arms-->
+                </bodyPartGroups>
+            </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical_Sling"]/apparel/bodyPartGroups</xpath>
+            <value>
+                <bodyPartGroups>
+                    <li>Torso</li>
+                    <li>Shoulders</li>
+                    <!--Arms-->
+                </bodyPartGroups>
+            </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="RNApparel_Backpack_PegasusEliteOps"]/apparel/bodyPartGroups</xpath>
+            <value>
+                <bodyPartGroups>
+                    <li>Torso</li>
+                    <li>Shoulders</li>
+                    <!--Arms-->
+                </bodyPartGroups>
+            </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Military"]/apparel/bodyPartGroups</xpath>
+            <value>
+                <bodyPartGroups>
+                    <li>Torso</li>
+                    <li>Shoulders</li>
+                    <!--Arms-->
+                </bodyPartGroups>
+            </value>
+        </li>
+        <!--Now to move things away from the torso-->
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="RNApparel_Harness_MOLLE"]/apparel/bodyPartGroups</xpath>
+            <value>
+                <bodyPartGroups>
+                    <li>Shoulders</li>
+                    <!--Torso-->
+                    <!--Arms-->
+                </bodyPartGroups>
+            </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="RNApparel_Harness_ALICE"]/apparel/bodyPartGroups</xpath>
+            <value>
+                <bodyPartGroups>
+                    <li>Shoulders</li>
+                    <!--Torso-->
+                    <!--Arms-->
+                </bodyPartGroups>
+            </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="RNApparel_Holsters_Shoulder"]/apparel/bodyPartGroups</xpath>
+            <value>
+                <bodyPartGroups>
+                    <li>Shoulders</li>
+                    <!--Torso-->
+                    <!--Arms-->
+                </bodyPartGroups>
+            </value>
+        </li>
+    </Operation>
+
+</Patch>
