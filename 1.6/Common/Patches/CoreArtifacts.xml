@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
+        <setting>useArtifactLayer</setting>
+        <operation Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Apparel_PsychicShockLance" or defName="Apparel_PsychicInsanityLance"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Artifact</li>
+                        </layers>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="OrbitalUtilityBase"]/apparel/layers</xpath>
+                    <value>
+                        <layers>
+                            <li>PacksAreNotBelts_Artifact</li>
+                        </layers>
+                    </value>
+                </li>
+            </operations>
+        </operation>
+    </Operation>
+
+</Patch>

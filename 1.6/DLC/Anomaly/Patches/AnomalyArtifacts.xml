@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
+        <setting>useArtifactLayer</setting>
+        <operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="Apparel_ShardPsychicShockLance" or defName="Apparel_ShardPsychicInsanityLance" or defName="Apparel_BiomutationLance"]/apparel/layers</xpath>
+            <value>
+                <layers>
+                    <li>PacksAreNotBelts_Artifact</li>
+                </layers>
+            </value>
+        </operation>
+    </Operation>
+</Patch>

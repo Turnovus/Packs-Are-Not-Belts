@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="VWE_Apparel_Exoframe"]/apparel/countsAsClothingForNudity</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="VWE_Apparel_Exoframe"]/apparel</xpath>
+            <value>
+                <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="VWE_Apparel_Exoframe"]/apparel/countsAsClothingForNudity</xpath>
+            <value>
+                <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>
