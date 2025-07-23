@@ -11,7 +11,7 @@
                     <xpath>Defs/ThingDef[defName="VAEA_Apparel_Quiver"]/apparel/layers</xpath>
                     <value>
                         <layers>
-                            <li>PacksAreNotBelts_Tactical</li>
+                            <li>PacksAreNotBelts_Ammo</li>
                         </layers>
                     </value>
                 </li>
@@ -20,7 +20,7 @@
                     <xpath>Defs/ThingDef[defName="VAEA_Apparel_AmmoPack"]/apparel/layers</xpath>
                     <value>
                         <layers>
-                            <li>PacksAreNotBelts_Tactical</li>
+                            <li>PacksAreNotBelts_Ammo</li>
                         </layers>
                     </value>
                 </li>
