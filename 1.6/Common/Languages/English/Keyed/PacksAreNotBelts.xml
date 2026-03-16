@@ -35,4 +35,7 @@
     <PacksAreNotBelts.ArtifactLayer.Title>Use artifact layer</PacksAreNotBelts.ArtifactLayer.Title>
     <PacksAreNotBelts.ArtifactLayer.Description>(REQUIRES RESTART) If enabled, certain artifacts like the shock and insanity lances will be moved to their own layer. Modded artifacts may or may not be supported, depending on how the mod's author configured them.</PacksAreNotBelts.ArtifactLayer.Description>
 
+    <PacksAreNotBelts.GravshipsOxygen.Title>Use life support layer for Vanilla Gravships Expanded</PacksAreNotBelts.GravshipsOxygen.Title>
+    <PacksAreNotBelts.GravshipsOxygen.Description>(REQUIRES RESTART) If enabled, the oxygen packs from Vanilla Gravships Expanded (Chapter 1) will be moved to their own layer.</PacksAreNotBelts.GravshipsOxygen.Description>
+
 </LanguageData>

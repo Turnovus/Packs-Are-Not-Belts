@@ -20,6 +20,7 @@ namespace PacksAreNotBelts
         public bool useTacticalLayerEftArmor = false;
         public bool useAmmoLayer = false;
         public bool useAmmoLayerAccessories = false;
+        public bool useLifeSupportLayerGravships = false;
 
         public override void ExposeData()
         {
@@ -35,6 +36,7 @@ namespace PacksAreNotBelts
             Scribe_Values.Look(ref useTacticalLayerEftArmor, "useTacticalLayerEftArmor");
             Scribe_Values.Look(ref useAmmoLayer, "useAmmoLayer");
             Scribe_Values.Look(ref useAmmoLayerAccessories, "useAmmoLayerAccessories");
+            Scribe_Values.Look(ref useLifeSupportLayerGravships, "useLifeSupportLayerGravships");
         }
     }
 }
