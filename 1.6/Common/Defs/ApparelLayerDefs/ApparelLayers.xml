@@ -42,4 +42,13 @@
 			<li Class="PacksAreNotBelts.ModExtension_IsUtilityLayer"/>
 		</modExtensions>
 	</ApparelLayerDef>
+
+	<ApparelLayerDef MayRequire="vanillaexpanded.gravship">
+		<defName>PacksAreNotBelts_LifeSupport</defName>
+		<label>life support</label>
+		<drawOrder>523</drawOrder>
+		<modExtensions>
+			<li Class="PacksAreNotBelts.ModExtension_IsUtilityLayer"/>
+		</modExtensions>
+	</ApparelLayerDef>
 </Defs>

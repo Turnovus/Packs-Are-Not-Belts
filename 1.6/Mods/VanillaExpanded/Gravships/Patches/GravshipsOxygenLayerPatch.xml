@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="VGE_Apparel_OxygenPack"]/apparel/bodyPartGroups</xpath>
+        <value>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+        </value>
+    </Operation>
+
+    <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
+        <setting>useLifeSupportLayerGravships</setting>
+        <operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VGE_Apparel_OxygenPack"]/apparel/layers</xpath>
+            <value>
+                <layers>
+                    <li>PacksAreNotBelts_LifeSupport</li>
+                </layers>
+            </value>
+        </operation>
+    </Operation>
+</Patch>

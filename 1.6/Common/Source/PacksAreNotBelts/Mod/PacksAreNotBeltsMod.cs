@@ -39,6 +39,7 @@ namespace PacksAreNotBelts
             DoSettingListing(listing, "EftArmor", ref settings.useTacticalLayerEftArmor);
             DoSettingListing(listing, "RimEffectAmmo", ref settings.useAmmoLayer);
             DoSettingListing(listing, "AccessoriesExpanded", ref settings.useAmmoLayerAccessories);
+            DoSettingListing(listing, "GravshipsOxygen", ref settings.useLifeSupportLayerGravships);
 
             listing.End();
         }
