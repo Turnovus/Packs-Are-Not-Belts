@@ -90,6 +90,7 @@
         <li IfModActive="sarg.alphamechs">1.6/Mods/AlphaMechs</li>
         <li IfModActive="tyrannicalelmo.industrialarmory">1.6/Mods/IndustrialArmory</li>
         <li IfModActive="Killathon.AndroidTiersReforged,Killathon.MechHumanlikes.AndroidTiers">1.6/Mods/AndroidTiers</li>
+        <li IfModActive="hlx.UltratechAlteredCarbon">1.6/Mods/AlteredCarbon</li>
 
     </v1.6>
 
