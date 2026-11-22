@@ -84,6 +84,9 @@
         <li IfModActive="CP.RimmuNation.Clothing">1.6/Mods/ChickenPlucker/RimmuNationOne</li>
         <li IfModActive="CP.RimmuNation.2.Clothing">1.6/Mods/ChickenPlucker/RimmuNationTwo</li>
 
+        <!-- Arsenal -->
+        <li IfModActive="ICC.AOV.INDTJUG">1.6/Mods/Arsenal/Juggernaut</li>
+
         <!-- Misc. Mechanoid Mods -->
         <li IfModActive="sarg.alphamechs">1.6/Mods/AlphaMechs</li>
         <li IfModActive="Mortis.ApexMechanoids">1.6/Mods/ApexMechs</li>
