@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Harmony\CustomLayerSupport.cs" />
     <Compile Include="Harmony\ArmorPatch.cs" />
+    <Compile Include="Harmony\UtilityDegradationPatch.cs" />
     <Compile Include="MyDefOf.cs" />
     <Compile Include="Harmony\NudistNudePatch.cs" />
     <Compile Include="Harmony\PatchRunner.cs" />
