@@ -28,14 +28,14 @@ namespace PacksAreNotBelts
 
             if (gearTabInnerClass == null)
             {
-                Log.Error("Packs are not Beltes: Failed to find inner class if ITab_Pawn_Gear!");
+                Log.Error("Packs are not Belts: Failed to find inner class of ITab_Pawn_Gear!");
             }
             else
             {
                 List<MethodInfo> innerMethods = AccessTools.GetDeclaredMethods(gearTabInnerClass);
                 if (innerMethods.Count < 2)
                 {
-                    Log.Error("Packs are not Belts: Targetted wrong inner class of ITab_Pawn_Gear, aborting patch.");
+                    Log.Error("Packs are not Belts: Targeted wrong inner class of ITab_Pawn_Gear, aborting patch.");
                 }
                 else
                 {
