@@ -79,6 +79,7 @@
         <li IfModActive="RimEffect.Core">1.6/Mods/VanillaExpanded/RimEffect</li>
         <li IfModActive="VanillaExpanded.VAEAccessories">1.6/Mods/VanillaExpanded/Accessories</li>
         <li IfModActive="vanillaexpanded.gravship">1.6/Mods/VanillaExpanded/Gravships</li>
+        <li IfModActive="vanillaexpanded.gravship2">1.6/Mods/VanillaExpanded/Gravships2</li>
 
         <!-- Chicken Plucker -->
         <li IfModActive="CP.RimmuNation.Clothing">1.6/Mods/ChickenPlucker/RimmuNationOne</li>
