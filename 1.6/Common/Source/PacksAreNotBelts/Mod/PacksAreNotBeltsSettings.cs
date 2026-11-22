@@ -11,6 +11,7 @@ namespace PacksAreNotBelts
     {
         public bool nudistsIgnoreUtility = true;
         public bool utilityIgnoresDamage = true;
+        public bool utilityDoesNotDegrade = true;
         public bool useLegacySmoke = false;
         public bool useArtifactLayer = false;
         public bool useAmmoLayerBandolier = false;
@@ -27,6 +28,7 @@ namespace PacksAreNotBelts
             base.ExposeData();
             Scribe_Values.Look(ref nudistsIgnoreUtility, "nudistsIgnoreUtility");
             Scribe_Values.Look(ref utilityIgnoresDamage, "utilityIgnoresDamage");
+            Scribe_Values.Look(ref utilityDoesNotDegrade, "utilityDoesNotDegrade", true);
             Scribe_Values.Look(ref useLegacySmoke, "useLegacySmoke");
             Scribe_Values.Look(ref useArtifactLayer, "useArtifactLayer");
             Scribe_Values.Look(ref useAmmoLayerBandolier, "useAmmoLayerBandolier");

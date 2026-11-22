@@ -8,6 +8,9 @@
     <PacksAreNotBelts.NoDamageUtilities.Title>Equipment ignores damage</PacksAreNotBelts.NoDamageUtilities.Title>
     <PacksAreNotBelts.NoDamageUtilities.Description>If enabled, apparel on the equipment layers will not take damage in combat.</PacksAreNotBelts.NoDamageUtilities.Description>
 
+    <PacksAreNotBelts.NoDegradeUtilities.Title>Equipment does not degrade</PacksAreNotBelts.NoDegradeUtilities.Title>
+    <PacksAreNotBelts.NoDegradeUtilities.Description>(REQUIRES RESTART) If enabled, supported utility items are patched so that they don't degrade over time while worn.</PacksAreNotBelts.NoDegradeUtilities.Description>
+
     <PacksAreNotBelts.LegacySmokepop.Title>Legacy smokepop</PacksAreNotBelts.LegacySmokepop.Title>
     <PacksAreNotBelts.LegacySmokepop.Description>(REQUIRES RESTART) Before 1.4, the smokepop pack had a more belt-like appearance, and so was treated like a belt. Enabling this setting will put it back on the belt area.</PacksAreNotBelts.LegacySmokepop.Description>
 

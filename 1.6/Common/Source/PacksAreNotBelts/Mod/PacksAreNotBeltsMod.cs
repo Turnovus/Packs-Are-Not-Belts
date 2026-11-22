@@ -30,6 +30,7 @@ namespace PacksAreNotBelts
 
             DoSettingListing(listing, "NudistsIgnore", ref settings.nudistsIgnoreUtility);
             DoSettingListing(listing, "NoDamageUtilities", ref settings.utilityIgnoresDamage);
+            DoSettingListing(listing, "NoDegradeUtilities", ref settings.utilityDoesNotDegrade);
             DoSettingListing(listing, "LegacySmokepop", ref settings.useLegacySmoke);
             DoSettingListing(listing, "ArtifactLayer", ref settings.useArtifactLayer);
             DoSettingListing(listing, "Bandolier", ref settings.useAmmoLayerBandolier);
