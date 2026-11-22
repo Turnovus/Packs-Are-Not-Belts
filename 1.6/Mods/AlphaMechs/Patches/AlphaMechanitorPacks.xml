@@ -2,70 +2,25 @@
 
 <Patch>
 
-    <Operation Class="PatchOperationSequence">
-        <operations>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="AM_BeamcasterPack"]/apparel/bodyPartGroups</xpath>
-                <value>
-                    <bodyPartGroups>
-                        <li>Torso</li>
-                    </bodyPartGroups>
-                </value>
-            </li>
-
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="AM_VoidlinkPack"]/apparel/bodyPartGroups</xpath>
-                <value>
-                    <bodyPartGroups>
-                        <li>Torso</li>
-                    </bodyPartGroups>
-                </value>
-            </li>
-
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="AM_CryptoPack"]/apparel/bodyPartGroups</xpath>
-                <value>
-                    <bodyPartGroups>
-                        <li>Torso</li>
-                    </bodyPartGroups>
-                </value>
-            </li>
-        </operations>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="AM_BeamcasterPack" or defName="AM_VoidlinkPack" or defName="AM_CryptoPack"]/apparel/bodyPartGroups</xpath>
+        <value>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+        </value>
     </Operation>
 
     <Operation Class="PacksAreNotBelts.PatchOperationModSetting">
         <setting>useMechLayer</setting>
-        <operation Class="PatchOperationSequence">
-            <operations>
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="AM_BeamcasterPack"]/apparel/layers</xpath>
-                    <value>
-                        <layers>
-                            <li>PacksAreNotBelts_Mechanitor</li>
-                        </layers>
-                    </value>
-                </li>
-                
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="AM_VoidlinkPack"]/apparel/layers</xpath>
-                    <value>
-                        <layers>
-                            <li>PacksAreNotBelts_Mechanitor</li>
-                        </layers>
-                    </value>
-                </li>
-
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="AM_CryptoPack"]/apparel/layers</xpath>
-                    <value>
-                        <layers>
-                            <li>PacksAreNotBelts_Mechanitor</li>
-                        </layers>
-                    </value>
-                </li>
-            </operations>
+        <operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="AM_BeamcasterPack" or defName="AM_VoidlinkPack" or defName="AM_CryptoPack"]/apparel/layers</xpath>
+            <value>
+                <layers>
+                    <li>PacksAreNotBelts_Mechanitor</li>
+                </layers>
+            </value>
         </operation>
     </Operation>
-
 
 </Patch>
