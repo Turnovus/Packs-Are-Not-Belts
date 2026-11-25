@@ -12,9 +12,11 @@ namespace PacksAreNotBelts
 {
     class PatchOperationModSetting : PatchOperation
     {
+#pragma warning disable CS0649
         private bool invert = false;
         private string setting;
         private PatchOperation operation;
+#pragma warning restore CS0649
 
         protected override bool ApplyWorker(XmlDocument xml)
         {
