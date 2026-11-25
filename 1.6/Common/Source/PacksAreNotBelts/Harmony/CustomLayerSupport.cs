@@ -17,7 +17,7 @@ namespace PacksAreNotBelts
     {
         public static void Postfix(ApparelLayerDef __instance, ref bool __result)
         {
-            if (__instance.HasModExtension<ModExtension_IsUtilityLayer>())
+            if (__instance.GetModExtension<ApparelLayerExtension>()?.isUtilityLayer == true)
             {
                 __result = true;
             }
@@ -37,7 +37,8 @@ namespace PacksAreNotBelts
         public static void Postfix(Apparel x, ref bool __result)
         {
             if (__result == false)
-                __result = x.def.apparel?.layers?.Any(l => l.HasModExtension<ModExtension_IsUtilityLayer>()) == true;
+                __result =
+                    x.def.apparel?.layers?.Any(l => l.GetModExtension<ApparelLayerExtension>()?.isEquipment == true) == true;
         }
     }
 
@@ -54,7 +55,8 @@ namespace PacksAreNotBelts
         public static void Postfix(Apparel x, ref bool __result)
         {
             if (__result == true)
-                __result = !(__result = x.def.apparel?.layers?.Any(l => l.HasModExtension<ModExtension_IsUtilityLayer>()) == true);
+                __result =
+                    !(__result = x.def.apparel?.layers?.Any(l => l.GetModExtension<ApparelLayerExtension>()?.isEquipment == true) == true);
         }
     }
 }

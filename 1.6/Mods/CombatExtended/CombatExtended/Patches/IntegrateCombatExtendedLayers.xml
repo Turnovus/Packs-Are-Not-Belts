@@ -5,7 +5,7 @@
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ApparelLayerDef[defName="Webbing" or defName="Backpack"]</xpath>
         <value>
-            <li Class="PacksAreNotBelts.ModExtension_IsUtilityLayer"/>
+            <li Class="PacksAreNotBelts.ApparelLayerExtension"/>
         </value>
     </Operation>
 

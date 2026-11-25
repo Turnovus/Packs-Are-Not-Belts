@@ -4,6 +4,9 @@
 		<defName>PacksAreNotBelts_Tactical</defName>
 		<label>tactical</label>
 		<drawOrder>515</drawOrder>
+		<modExtensions>
+			<li Class="PacksAreNotBelts.ApparelLayerExtension"/>
+		</modExtensions>
 	</ApparelLayerDef>
 	
 	<ApparelLayerDef>
@@ -11,7 +14,9 @@
 		<label>ammunition</label>
 		<drawOrder>517</drawOrder>
 		<modExtensions>
-			<li Class="PacksAreNotBelts.ModExtension_IsUtilityLayer"/>
+			<li Class="PacksAreNotBelts.ApparelLayerExtension">
+				<isUtilityLayer>true</isUtilityLayer>
+			</li>
 		</modExtensions>
 	</ApparelLayerDef>
 	
@@ -21,7 +26,9 @@
 		<!--Combat Extended, why!?-->
 		<drawOrder>119</drawOrder>
 		<modExtensions>
-			<li Class="PacksAreNotBelts.ModExtension_IsUtilityLayer"/>
+			<li Class="PacksAreNotBelts.ApparelLayerExtension">
+				<isUtilityLayer>true</isUtilityLayer>
+			</li>
 		</modExtensions>
 	</ApparelLayerDef>
 
@@ -30,7 +37,9 @@
 		<label>mechanitor</label>
 		<drawOrder>518</drawOrder>
 		<modExtensions>
-			<li Class="PacksAreNotBelts.ModExtension_IsUtilityLayer"/>
+			<li Class="PacksAreNotBelts.ApparelLayerExtension">
+				<isUtilityLayer>true</isUtilityLayer>
+			</li>
 		</modExtensions>
 	</ApparelLayerDef>
 
@@ -39,7 +48,9 @@
 		<label>artifact</label>
 		<drawOrder>521</drawOrder>
 		<modExtensions>
-			<li Class="PacksAreNotBelts.ModExtension_IsUtilityLayer"/>
+			<li Class="PacksAreNotBelts.ApparelLayerExtension">
+				<isUtilityLayer>true</isUtilityLayer>
+			</li>
 		</modExtensions>
 	</ApparelLayerDef>
 
@@ -48,7 +59,9 @@
 		<label>life support</label>
 		<drawOrder>523</drawOrder>
 		<modExtensions>
-			<li Class="PacksAreNotBelts.ModExtension_IsUtilityLayer"/>
+			<li Class="PacksAreNotBelts.ApparelLayerExtension">
+				<isUtilityLayer>true</isUtilityLayer>
+			</li>
 		</modExtensions>
 	</ApparelLayerDef>
 </Defs>

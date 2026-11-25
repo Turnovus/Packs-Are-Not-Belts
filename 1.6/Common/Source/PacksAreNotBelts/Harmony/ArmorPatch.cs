@@ -13,14 +13,14 @@ namespace PacksAreNotBelts
     [HarmonyPatch("ApplyArmor")]
     public static class ArmorPatch
     {
-        public static bool IsUtility(Apparel a)
+        public static bool IsDamageDisabled(Apparel a)
         {
             List<ApparelLayerDef> layers = a?.def.apparel?.layers;
             if (layers.NullOrEmpty())
                 return false;
 
             foreach (ApparelLayerDef layer in layers)
-                if (layer.IsUtilityLayer)
+                if (layer.GetModExtension<ApparelLayerExtension>()?.disableDamage == true)
                     return true;
 
             return false;
@@ -32,7 +32,7 @@ namespace PacksAreNotBelts
             if (!LoadedModManager.GetMod<PacksAreNotBeltsMod>().settings.utilityIgnoresDamage)
                 return true;
 
-            if (IsUtility(armorThing as Apparel))
+            if (IsDamageDisabled(armorThing as Apparel))
                 return false;
 
             return true;

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ApparelLayerDef[defName="Belt"]</xpath>
+        <value>
+            <!-- We won't flag the vanilla utilty layer as "isUtilityLayer" because that would be
+            redundant. -->
+            <li Class="PacksAreNotBelts.ApparelLayerExtension"/>
+        </value>
+    </Operation>
+
+</Patch>

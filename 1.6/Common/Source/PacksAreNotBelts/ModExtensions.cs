@@ -8,7 +8,11 @@ using RimWorld;
 
 namespace PacksAreNotBelts
 {
-    class ModExtension_IsUtilityLayer : DefModExtension
+    class ApparelLayerExtension : DefModExtension
     {
+        public bool disableDamage = true;
+        public bool disableDeterioration = true;
+        public bool isEquipment = true;
+        public bool isUtilityLayer = false;
     }
 }
